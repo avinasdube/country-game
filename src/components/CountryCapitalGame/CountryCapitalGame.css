@@ -1,0 +1,70 @@
+.heading{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.subheading{
+    font-size: 12px;
+    margin-top: -18px;
+    color: gray;
+}
+
+.gameContainer{
+    width: 440px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px;
+    border: 2px solid rgb(230, 230, 230);
+    border-radius: 10px;
+}
+
+button{
+    border: none;
+    outline: none;
+    width: 140px;
+    height: 35px;
+    font-weight: 500;
+    border-radius: 6px;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+button:active{
+    background-color: #009BFF;
+    color: white;
+}
+
+.selected{
+    background-color: #009BFF;
+    color: white; 
+}
+
+.wrong{
+    background-color: #FF0000;
+    color: white;
+}
+
+.message{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.message img{
+    width: 80px;
+    height: 80px;
+}
+
+.congrats{
+    color: green;
+}
+.failed{
+    
+    color: #FF0000;
+}
